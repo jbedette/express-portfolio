@@ -4,12 +4,15 @@
   "description": "my portfolio site with express js",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "John Bedette",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.3"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
